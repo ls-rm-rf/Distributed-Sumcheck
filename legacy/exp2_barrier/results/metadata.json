@@ -1,0 +1,111 @@
+{
+  "config": {
+    "Ms": [
+      3,
+      5,
+      7,
+      9
+    ],
+    "trials": 10,
+    "seed": 20250502,
+    "primes": [
+      "PRIME_TINY",
+      "PRIME_MERSENNE_61",
+      "PRIME_RANDOM_61"
+    ],
+    "started_utc": "2026-09-30T22:27:31.878791+00:00"
+  },
+  "pass_total": 300,
+  "fail_total": 0,
+  "trial_semantics": "deterministic repetitions, not independent random attacks",
+  "boundary_semantics": "c=t includes p(0)=secret; recovery is conditional on this supplied equation",
+  "skipped_configs": [
+    {
+      "M": 5,
+      "t": 2,
+      "c": 0,
+      "prime_label": "PRIME_TINY",
+      "reason": "matrix implementation requires p > t+1"
+    },
+    {
+      "M": 5,
+      "t": 2,
+      "c": 1,
+      "prime_label": "PRIME_TINY",
+      "reason": "matrix implementation requires p > t+1"
+    },
+    {
+      "M": 5,
+      "t": 2,
+      "c": 2,
+      "prime_label": "PRIME_TINY",
+      "reason": "matrix implementation requires p > t+1"
+    },
+    {
+      "M": 7,
+      "t": 3,
+      "c": 0,
+      "prime_label": "PRIME_TINY",
+      "reason": "matrix implementation requires p > t+1"
+    },
+    {
+      "M": 7,
+      "t": 3,
+      "c": 1,
+      "prime_label": "PRIME_TINY",
+      "reason": "matrix implementation requires p > t+1"
+    },
+    {
+      "M": 7,
+      "t": 3,
+      "c": 2,
+      "prime_label": "PRIME_TINY",
+      "reason": "matrix implementation requires p > t+1"
+    },
+    {
+      "M": 7,
+      "t": 3,
+      "c": 3,
+      "prime_label": "PRIME_TINY",
+      "reason": "matrix implementation requires p > t+1"
+    },
+    {
+      "M": 9,
+      "t": 4,
+      "c": 0,
+      "prime_label": "PRIME_TINY",
+      "reason": "matrix implementation requires p > t+1"
+    },
+    {
+      "M": 9,
+      "t": 4,
+      "c": 1,
+      "prime_label": "PRIME_TINY",
+      "reason": "matrix implementation requires p > t+1"
+    },
+    {
+      "M": 9,
+      "t": 4,
+      "c": 2,
+      "prime_label": "PRIME_TINY",
+      "reason": "matrix implementation requires p > t+1"
+    },
+    {
+      "M": 9,
+      "t": 4,
+      "c": 3,
+      "prime_label": "PRIME_TINY",
+      "reason": "matrix implementation requires p > t+1"
+    },
+    {
+      "M": 9,
+      "t": 4,
+      "c": 4,
+      "prime_label": "PRIME_TINY",
+      "reason": "matrix implementation requires p > t+1"
+    }
+  ],
+  "unique_configs": 30,
+  "finished_utc": "2026-09-30T22:27:31.907669+00:00",
+  "first_failures": []
+}

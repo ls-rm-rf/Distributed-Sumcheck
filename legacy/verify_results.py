@@ -119,10 +119,13 @@ def main():
         assert pdf.stat().st_size > 1000 and pdf.read_bytes().startswith(b"%PDF")
         assert pdf.with_suffix(".png").stat().st_size > 1000
 
+    # Later stages write to module validation/ and figures/ directories.
+    # This manifest records the baseline files and all experiment source.
     files = sorted(p for module in ("crypto_core", "exp1_rank_saturation", "exp2_barrier",
                                    "exp3_communication", "appendix_a_libra_rank")
                    for p in (ROOT / module).rglob("*")
-                   if p.is_file() and p.suffix in (".py", ".csv", ".json", ".jsonl", ".pdf", ".png"))
+                   if p.is_file() and p.suffix in (".py", ".csv", ".json", ".jsonl", ".pdf", ".png")
+                   and not {"validation", "figures"}.intersection(p.relative_to(ROOT).parts))
     files += [ROOT / name for name in ("run_all.py", "verify_results.py", "requirements.txt",
                                       "requirements-wsl.lock.txt", "README.md")]
     manifest = {

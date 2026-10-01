@@ -1,0 +1,47 @@
+{
+  "config": {
+    "Ms": [
+      3,
+      5,
+      7,
+      9,
+      15,
+      31,
+      63
+    ],
+    "ns": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14
+    ],
+    "prime_label": "PRIME_MERSENNE_61",
+    "prime_value": "2305843009213693951",
+    "boundary_policies": [
+      "fold_after",
+      "fold_before"
+    ],
+    "seed_state_models": {
+      "one": 1,
+      "M": "M",
+      "M_squared": "M^2"
+    },
+    "main_seed_state_model": "M",
+    "seed_refresh_frequency": "every_refresh_boundary"
+  },
+  "rows_written": 34300,
+  "protocol_totals_written": 4900,
+  "abort_rows_written": 343,
+  "started_utc": "2026-09-30T22:27:32.068696+00:00",
+  "finished_utc": "2026-09-30T22:27:32.309146+00:00",
+  "accounting": "Normalized field-element model, not network or runtime measurements",
+  "exclusions": [
+    "initial setup",
+    "broadcast fanout",
+    "unspecified O(1) fresh randomness"
+  ],
+  "seed_assumption": "S is a scenario parameter, not a derived PRSS key count"
+}

@@ -1,20 +1,24 @@
-# Baseline experiment source
+# Experiment modules
 
 This directory contains finite-field utilities and four experiment modules.
-No precomputed data or plots are distributed.
+Use `python run_experiments.py` from the bundle root for the full workflow.
+The root runner first calls `legacy/run_all.py`, then runs the complete-refresh,
+joint-prefix, cost-comparison, and epoch-plot scripts in their experiment modules.
 
-Use `python run_experiments.py` from the repository root to generate baseline
-data and execute the supplements in the correct order. Alternatively,
-`python legacy/run_all.py` runs only the baseline suite.
+`python legacy/run_all.py` runs the baseline suite only: unittest discovery,
+sparse-mask prefix ranks, overlap and extra-exposure checks, resource sweeps
+and plots, and uniform-degree separable-mask ranks. It verifies generated
+baseline files and all experiment source, then writes
+`legacy/validation/run_manifest.json`. Later stages write their outputs to each
+module's `validation/` and `figures/` directories, outside the baseline manifest.
 
-The baseline runner executes unittest discovery, sparse-mask prefix ranks,
-overlap and extra-exposure checks, resource sweeps and plots, and uniform-degree
-separable-mask ranks. It checks freshly generated outputs and writes a manifest
-to `validation/run_manifest.json`.
+The complete-refresh and joint-snapshot checks live in `exp2_barrier/`.
+Complete-refresh cost comparisons live in `exp3_communication/`.
+The root [README](../README.md) lists individual scripts and output paths.
 
-`run_all.py --quick` reduces sweep sizes and overwrites baseline outputs; it is
-not input for the full-size supplement's cost comparisons. Use the root full
-runner before executing those comparisons.
+`run_all.py --quick` reduces sweep sizes and overwrites baseline outputs.
+These reduced data cannot satisfy the full cost comparison. Run the root
+full workflow to regenerate the required parameter coverage.
 
-These are algebraic checks and resource models, not deployed protocol security
-or measured network performance.
+These are algebraic checks and resource models, not a deployed protocol
+or measurements of network performance.

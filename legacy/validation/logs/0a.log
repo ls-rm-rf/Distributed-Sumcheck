@@ -1,0 +1,49 @@
+test_kernel_remask_preserves_direct_transcript (appendix_a_libra_rank.test_construction.TestLibraConstruction.test_kernel_remask_preserves_direct_transcript) ... ok
+test_matrix_matches_direct_boolean_sums (appendix_a_libra_rank.test_construction.TestLibraConstruction.test_matrix_matches_direct_boolean_sums) ... ok
+test_uniform_degree_terminal_saturates (appendix_a_libra_rank.test_construction.TestLibraConstruction.test_uniform_degree_terminal_saturates) ... ok
+test_basic_ops (crypto_core.tests.test_field.TestFieldArithmetic.test_basic_ops) ... ok
+test_inverse (crypto_core.tests.test_field.TestFieldArithmetic.test_inverse) ... ok
+test_mat_mul (crypto_core.tests.test_field.TestFieldArithmetic.test_mat_mul) ... ok
+test_pow_mod (crypto_core.tests.test_field.TestFieldArithmetic.test_pow_mod) ... ok
+test_vec_ops (crypto_core.tests.test_field.TestFieldArithmetic.test_vec_ops) ... ok
+test_add_sub_mul (crypto_core.tests.test_polynomial.TestPolynomial.test_add_sub_mul) ... ok
+test_eval_constant (crypto_core.tests.test_polynomial.TestPolynomial.test_eval_constant) ... ok
+test_lagrange_interpolate (crypto_core.tests.test_polynomial.TestPolynomial.test_lagrange_interpolate) ... ok
+test_random_poly_roundtrip (crypto_core.tests.test_polynomial.TestPolynomial.test_random_poly_roundtrip) ... ok
+test_kernel_basis_correctness (crypto_core.tests.test_rank.TestModularRank.test_kernel_basis_correctness) ... ok
+test_projected_nullity_secret_recoverable (crypto_core.tests.test_rank.TestModularRank.test_projected_nullity_secret_recoverable) ... ok
+test_rank_dependent_rows (crypto_core.tests.test_rank.TestModularRank.test_rank_dependent_rows) ... ok
+test_rank_full (crypto_core.tests.test_rank.TestModularRank.test_rank_full) ... ok
+test_rank_simple (crypto_core.tests.test_rank.TestModularRank.test_rank_simple) ... ok
+test_rank_zero_matrix (crypto_core.tests.test_rank.TestModularRank.test_rank_zero_matrix) ... ok
+test_residual_dim_known (crypto_core.tests.test_rank.TestModularRank.test_residual_dim_known) ... ok
+test_share_reconstruct_roundtrip (crypto_core.tests.test_shamir.TestShamir.test_share_reconstruct_roundtrip) ... ok
+test_t_shares_insufficient (crypto_core.tests.test_shamir.TestShamir.test_t_shares_insufficient) ... ok
+test_dimensions_independent_of_k (exp1_rank_saturation.test_construction.TestExp1Construction.test_dimensions_independent_of_k)
+gamma_dim(n) is always 3n+3 -- does not change between ordinary and terminal. ... ok
+test_gamma_indices_n3 (exp1_rank_saturation.test_construction.TestExp1Construction.test_gamma_indices_n3) ... ok
+test_lemma_44_holds_at_degenerate_challenges (exp1_rank_saturation.test_construction.TestExp1Construction.test_lemma_44_holds_at_degenerate_challenges)
+Paper construction: rank = 1+3k for ANY r in F_p, including 0 and 1. ... ok
+test_lemma_44_rank_pattern_n3 (exp1_rank_saturation.test_construction.TestExp1Construction.test_lemma_44_rank_pattern_n3)
+Paper §4.5: ranks are [1, 4, 7, 12] for n=3, k=0..3. ... ok
+test_paper_example_n3_H1_rows (exp1_rank_saturation.test_construction.TestExp1Construction.test_paper_example_n3_H1_rows)
+Paper §4.5: H_1(X) = 4 g_0 + 4 P_1(X) + 2 S_2 + 2 S_3 ... ok
+test_paper_example_n3_H2_const_row_uses_r1 (exp1_rank_saturation.test_construction.TestExp1Construction.test_paper_example_n3_H2_const_row_uses_r1)
+Paper §4.5: H_2(X) = 2 g_0 + 2 P_1(r_1) + 2 P_2(X) + S_3 ... ok
+test_paper_example_n3_initial_row_G (exp1_rank_saturation.test_construction.TestExp1Construction.test_paper_example_n3_initial_row_G)
+Paper §4.5: G = 8 g_0 + 4 (S_1 + S_2 + S_3), ... ok
+test_row_count (exp1_rank_saturation.test_construction.TestExp1Construction.test_row_count)
+Row count: 1 (k=0); 1+4k (1<=k<=n-1); 4n+3 (k=n). ... ok
+test_one_new_post_share_recovers_at_full_overlap (exp2_barrier.test_exposure.TestOneMoreExposure.test_one_new_post_share_recovers_at_full_overlap) ... ok
+test_overlap_alone_does_not_recover_secret (exp2_barrier.test_exposure.TestOneMoreExposure.test_overlap_alone_does_not_recover_secret) ... ok
+test_partial_overlap_retains_transition_dimension (exp2_barrier.test_exposure.TestOneMoreExposure.test_partial_overlap_retains_transition_dimension) ... ok
+test_abort_replay_uses_verification_units (exp3_communication.test_accounting.TestCommunication.test_abort_replay_uses_verification_units) ... ok
+test_closed_form_full_sweep (exp3_communication.test_accounting.TestCommunication.test_closed_form_full_sweep) ... ok
+test_protocol_sum_uses_actual_boundaries (exp3_communication.test_accounting.TestCommunication.test_protocol_sum_uses_actual_boundaries) ... ok
+test_seed_refresh_is_charged_once_per_boundary (exp3_communication.test_accounting.TestCommunication.test_seed_refresh_is_charged_once_per_boundary) ... ok
+test_total_scope_scales_both_cost_and_baseline (exp3_communication.test_accounting.TestCommunication.test_total_scope_scales_both_cost_and_baseline) ... ok
+
+----------------------------------------------------------------------
+Ran 37 tests in 0.038s
+
+OK

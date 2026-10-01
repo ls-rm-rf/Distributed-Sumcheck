@@ -1,0 +1,29 @@
+{
+  "config": {
+    "ns": [
+      3,
+      5,
+      7
+    ],
+    "trials": 3,
+    "seed": 20250502,
+    "degree": 2,
+    "primes": [
+      "PRIME_TINY",
+      "PRIME_MERSENNE_61",
+      "PRIME_RANDOM_61"
+    ],
+    "policies": [
+      "exclude_01",
+      "forced_01"
+    ]
+  },
+  "source": "https://www.cs.yale.edu/homes/cpap/published/libra-crypto19.pdf",
+  "source_section": "4.1, Construction 1",
+  "rank_prediction": "1 + degree*k, including k=n",
+  "pass_total": 324,
+  "fail_total": 0,
+  "skipped": [],
+  "started_utc": "2026-09-30T22:27:34.950103+00:00",
+  "finished_utc": "2026-09-30T22:27:34.973752+00:00"
+}

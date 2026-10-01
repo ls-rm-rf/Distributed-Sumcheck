@@ -1,0 +1,110 @@
+{
+  "status": "PASS",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "exhaustive_lift": [
+    {
+      "p": 3,
+      "C": [],
+      "d": 2,
+      "t": 1,
+      "outputs": 81,
+      "seed_symbols": 4,
+      "uniform": true,
+      "semantic_values": 9,
+      "outputs_per_semantic_value": 9,
+      "dealer_randomness_symbols": 2
+    },
+    {
+      "p": 3,
+      "C": [
+        [
+          1,
+          0
+        ]
+      ],
+      "d": 2,
+      "t": 1,
+      "outputs": 27,
+      "seed_symbols": 3,
+      "uniform": true,
+      "semantic_values": 3,
+      "outputs_per_semantic_value": 9,
+      "dealer_randomness_symbols": 2
+    },
+    {
+      "p": 3,
+      "C": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "d": 2,
+      "t": 1,
+      "outputs": 9,
+      "seed_symbols": 2,
+      "uniform": true,
+      "semantic_values": 1,
+      "outputs_per_semantic_value": 9,
+      "dealer_randomness_symbols": 2
+    },
+    {
+      "p": 5,
+      "C": [
+        [
+          1,
+          1
+        ]
+      ],
+      "d": 2,
+      "t": 1,
+      "outputs": 125,
+      "seed_symbols": 3,
+      "uniform": true,
+      "semantic_values": 5,
+      "outputs_per_semantic_value": 25,
+      "dealer_randomness_symbols": 2
+    }
+  ],
+  "mobile_snapshot": {
+    "p": 5,
+    "secrets": 5,
+    "observations_per_epoch": 1,
+    "kernel_only_supports_disjoint": true,
+    "completed_views_identical": true,
+    "kernel_only_views_per_secret": 125,
+    "completed_views_per_secret": 625,
+    "samples_per_secret_completed": 3125
+  },
+  "conditioning_assumptions": {
+    "p": 3,
+    "marginal_independence_counterexample": true,
+    "joint_freshness_restores_uniformity": true
+  },
+  "adaptive_snapshots": {
+    "p": 5,
+    "M": 4,
+    "t": 2,
+    "epochs": 2,
+    "secret_sequences": 25,
+    "samples_per_sequence": 625,
+    "full_view_distributions_identical": true
+  },
+  "lifted_rank_checks": 44,
+  "legacy_hashes_checked": 79,
+  "legacy_csv_counts": {
+    "rank_table_multi_prime.csv": 1740,
+    "barrier_table.csv": 300,
+    "one_more_exposure.csv": 60,
+    "libra_rank_table.csv": 324,
+    "communication_benchmark.csv": 34300,
+    "communication_totals.csv": 4900,
+    "abort_restart.csv": 343
+  },
+  "scope": "Exact algebra and ideal snapshots; no network implementation"
+}

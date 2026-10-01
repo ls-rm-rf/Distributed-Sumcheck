@@ -1,0 +1,8 @@
+M= 3  t=1  cs=0..1  done
+M= 5  t=2  cs=0..2  done
+M= 7  t=3  cs=0..3  done
+M= 9  t=4  cs=0..4  done
+
+results: E:\pycharm\workspace\20260912Sumcheck\paper2_experiments\legacy\exp2_barrier\results\barrier_table.csv
+summary: E:\pycharm\workspace\20260912Sumcheck\paper2_experiments\legacy\exp2_barrier\results\metadata.json
+pass=300 fail=0

@@ -1,0 +1,250 @@
+
+=== mode=main  policy=include_01 ===
+  n= 2 prime=PRIME_TINY         trial=0  pass= 3/3
+  n= 2 prime=PRIME_TINY         trial=1  pass= 3/3
+  n= 2 prime=PRIME_TINY         trial=2  pass= 3/3
+  n= 2 prime=PRIME_TINY         trial=3  pass= 3/3
+  n= 2 prime=PRIME_TINY         trial=4  pass= 3/3
+  n= 2 prime=PRIME_MERSENNE_61  trial=0  pass= 3/3
+  n= 2 prime=PRIME_MERSENNE_61  trial=1  pass= 3/3
+  n= 2 prime=PRIME_MERSENNE_61  trial=2  pass= 3/3
+  n= 2 prime=PRIME_MERSENNE_61  trial=3  pass= 3/3
+  n= 2 prime=PRIME_MERSENNE_61  trial=4  pass= 3/3
+  n= 2 prime=PRIME_RANDOM_61    trial=0  pass= 3/3
+  n= 2 prime=PRIME_RANDOM_61    trial=1  pass= 3/3
+  n= 2 prime=PRIME_RANDOM_61    trial=2  pass= 3/3
+  n= 2 prime=PRIME_RANDOM_61    trial=3  pass= 3/3
+  n= 2 prime=PRIME_RANDOM_61    trial=4  pass= 3/3
+  n= 3 prime=PRIME_TINY         trial=0  pass= 4/4
+  n= 3 prime=PRIME_TINY         trial=1  pass= 4/4
+  n= 3 prime=PRIME_TINY         trial=2  pass= 4/4
+  n= 3 prime=PRIME_TINY         trial=3  pass= 4/4
+  n= 3 prime=PRIME_TINY         trial=4  pass= 4/4
+  n= 3 prime=PRIME_MERSENNE_61  trial=0  pass= 4/4
+  n= 3 prime=PRIME_MERSENNE_61  trial=1  pass= 4/4
+  n= 3 prime=PRIME_MERSENNE_61  trial=2  pass= 4/4
+  n= 3 prime=PRIME_MERSENNE_61  trial=3  pass= 4/4
+  n= 3 prime=PRIME_MERSENNE_61  trial=4  pass= 4/4
+  n= 3 prime=PRIME_RANDOM_61    trial=0  pass= 4/4
+  n= 3 prime=PRIME_RANDOM_61    trial=1  pass= 4/4
+  n= 3 prime=PRIME_RANDOM_61    trial=2  pass= 4/4
+  n= 3 prime=PRIME_RANDOM_61    trial=3  pass= 4/4
+  n= 3 prime=PRIME_RANDOM_61    trial=4  pass= 4/4
+  n= 4 prime=PRIME_TINY         trial=0  pass= 5/5
+  n= 4 prime=PRIME_TINY         trial=1  pass= 5/5
+  n= 4 prime=PRIME_TINY         trial=2  pass= 5/5
+  n= 4 prime=PRIME_TINY         trial=3  pass= 5/5
+  n= 4 prime=PRIME_TINY         trial=4  pass= 5/5
+  n= 4 prime=PRIME_MERSENNE_61  trial=0  pass= 5/5
+  n= 4 prime=PRIME_MERSENNE_61  trial=1  pass= 5/5
+  n= 4 prime=PRIME_MERSENNE_61  trial=2  pass= 5/5
+  n= 4 prime=PRIME_MERSENNE_61  trial=3  pass= 5/5
+  n= 4 prime=PRIME_MERSENNE_61  trial=4  pass= 5/5
+  n= 4 prime=PRIME_RANDOM_61    trial=0  pass= 5/5
+  n= 4 prime=PRIME_RANDOM_61    trial=1  pass= 5/5
+  n= 4 prime=PRIME_RANDOM_61    trial=2  pass= 5/5
+  n= 4 prime=PRIME_RANDOM_61    trial=3  pass= 5/5
+  n= 4 prime=PRIME_RANDOM_61    trial=4  pass= 5/5
+  n= 5 prime=PRIME_TINY         trial=0  pass= 6/6
+  n= 5 prime=PRIME_TINY         trial=1  pass= 6/6
+  n= 5 prime=PRIME_TINY         trial=2  pass= 6/6
+  n= 5 prime=PRIME_TINY         trial=3  pass= 6/6
+  n= 5 prime=PRIME_TINY         trial=4  pass= 6/6
+  n= 5 prime=PRIME_MERSENNE_61  trial=0  pass= 6/6
+  n= 5 prime=PRIME_MERSENNE_61  trial=1  pass= 6/6
+  n= 5 prime=PRIME_MERSENNE_61  trial=2  pass= 6/6
+  n= 5 prime=PRIME_MERSENNE_61  trial=3  pass= 6/6
+  n= 5 prime=PRIME_MERSENNE_61  trial=4  pass= 6/6
+  n= 5 prime=PRIME_RANDOM_61    trial=0  pass= 6/6
+  n= 5 prime=PRIME_RANDOM_61    trial=1  pass= 6/6
+  n= 5 prime=PRIME_RANDOM_61    trial=2  pass= 6/6
+  n= 5 prime=PRIME_RANDOM_61    trial=3  pass= 6/6
+  n= 5 prime=PRIME_RANDOM_61    trial=4  pass= 6/6
+  n= 6 prime=PRIME_TINY         trial=0  pass= 7/7
+  n= 6 prime=PRIME_TINY         trial=1  pass= 7/7
+  n= 6 prime=PRIME_TINY         trial=2  pass= 7/7
+  n= 6 prime=PRIME_TINY         trial=3  pass= 7/7
+  n= 6 prime=PRIME_TINY         trial=4  pass= 7/7
+  n= 6 prime=PRIME_MERSENNE_61  trial=0  pass= 7/7
+  n= 6 prime=PRIME_MERSENNE_61  trial=1  pass= 7/7
+  n= 6 prime=PRIME_MERSENNE_61  trial=2  pass= 7/7
+  n= 6 prime=PRIME_MERSENNE_61  trial=3  pass= 7/7
+  n= 6 prime=PRIME_MERSENNE_61  trial=4  pass= 7/7
+  n= 6 prime=PRIME_RANDOM_61    trial=0  pass= 7/7
+  n= 6 prime=PRIME_RANDOM_61    trial=1  pass= 7/7
+  n= 6 prime=PRIME_RANDOM_61    trial=2  pass= 7/7
+  n= 6 prime=PRIME_RANDOM_61    trial=3  pass= 7/7
+  n= 6 prime=PRIME_RANDOM_61    trial=4  pass= 7/7
+  n= 8 prime=PRIME_TINY         trial=0  pass= 9/9
+  n= 8 prime=PRIME_TINY         trial=1  pass= 9/9
+  n= 8 prime=PRIME_TINY         trial=2  pass= 9/9
+  n= 8 prime=PRIME_TINY         trial=3  pass= 9/9
+  n= 8 prime=PRIME_TINY         trial=4  pass= 9/9
+  n= 8 prime=PRIME_MERSENNE_61  trial=0  pass= 9/9
+  n= 8 prime=PRIME_MERSENNE_61  trial=1  pass= 9/9
+  n= 8 prime=PRIME_MERSENNE_61  trial=2  pass= 9/9
+  n= 8 prime=PRIME_MERSENNE_61  trial=3  pass= 9/9
+  n= 8 prime=PRIME_MERSENNE_61  trial=4  pass= 9/9
+  n= 8 prime=PRIME_RANDOM_61    trial=0  pass= 9/9
+  n= 8 prime=PRIME_RANDOM_61    trial=1  pass= 9/9
+  n= 8 prime=PRIME_RANDOM_61    trial=2  pass= 9/9
+  n= 8 prime=PRIME_RANDOM_61    trial=3  pass= 9/9
+  n= 8 prime=PRIME_RANDOM_61    trial=4  pass= 9/9
+  n=10 prime=PRIME_TINY         trial=0  pass=11/11
+  n=10 prime=PRIME_TINY         trial=1  pass=11/11
+  n=10 prime=PRIME_TINY         trial=2  pass=11/11
+  n=10 prime=PRIME_TINY         trial=3  pass=11/11
+  n=10 prime=PRIME_TINY         trial=4  pass=11/11
+  n=10 prime=PRIME_MERSENNE_61  trial=0  pass=11/11
+  n=10 prime=PRIME_MERSENNE_61  trial=1  pass=11/11
+  n=10 prime=PRIME_MERSENNE_61  trial=2  pass=11/11
+  n=10 prime=PRIME_MERSENNE_61  trial=3  pass=11/11
+  n=10 prime=PRIME_MERSENNE_61  trial=4  pass=11/11
+  n=10 prime=PRIME_RANDOM_61    trial=0  pass=11/11
+  n=10 prime=PRIME_RANDOM_61    trial=1  pass=11/11
+  n=10 prime=PRIME_RANDOM_61    trial=2  pass=11/11
+  n=10 prime=PRIME_RANDOM_61    trial=3  pass=11/11
+  n=10 prime=PRIME_RANDOM_61    trial=4  pass=11/11
+  n=12 prime=PRIME_TINY         trial=0  pass=13/13
+  n=12 prime=PRIME_TINY         trial=1  pass=13/13
+  n=12 prime=PRIME_TINY         trial=2  pass=13/13
+  n=12 prime=PRIME_TINY         trial=3  pass=13/13
+  n=12 prime=PRIME_TINY         trial=4  pass=13/13
+  n=12 prime=PRIME_MERSENNE_61  trial=0  pass=13/13
+  n=12 prime=PRIME_MERSENNE_61  trial=1  pass=13/13
+  n=12 prime=PRIME_MERSENNE_61  trial=2  pass=13/13
+  n=12 prime=PRIME_MERSENNE_61  trial=3  pass=13/13
+  n=12 prime=PRIME_MERSENNE_61  trial=4  pass=13/13
+  n=12 prime=PRIME_RANDOM_61    trial=0  pass=13/13
+  n=12 prime=PRIME_RANDOM_61    trial=1  pass=13/13
+  n=12 prime=PRIME_RANDOM_61    trial=2  pass=13/13
+  n=12 prime=PRIME_RANDOM_61    trial=3  pass=13/13
+  n=12 prime=PRIME_RANDOM_61    trial=4  pass=13/13
+
+=== mode=stress  policy=forced_01 ===
+  n= 2 prime=PRIME_TINY         trial=0  pass= 3/3
+  n= 2 prime=PRIME_TINY         trial=1  pass= 3/3
+  n= 2 prime=PRIME_TINY         trial=2  pass= 3/3
+  n= 2 prime=PRIME_TINY         trial=3  pass= 3/3
+  n= 2 prime=PRIME_TINY         trial=4  pass= 3/3
+  n= 2 prime=PRIME_MERSENNE_61  trial=0  pass= 3/3
+  n= 2 prime=PRIME_MERSENNE_61  trial=1  pass= 3/3
+  n= 2 prime=PRIME_MERSENNE_61  trial=2  pass= 3/3
+  n= 2 prime=PRIME_MERSENNE_61  trial=3  pass= 3/3
+  n= 2 prime=PRIME_MERSENNE_61  trial=4  pass= 3/3
+  n= 2 prime=PRIME_RANDOM_61    trial=0  pass= 3/3
+  n= 2 prime=PRIME_RANDOM_61    trial=1  pass= 3/3
+  n= 2 prime=PRIME_RANDOM_61    trial=2  pass= 3/3
+  n= 2 prime=PRIME_RANDOM_61    trial=3  pass= 3/3
+  n= 2 prime=PRIME_RANDOM_61    trial=4  pass= 3/3
+  n= 3 prime=PRIME_TINY         trial=0  pass= 4/4
+  n= 3 prime=PRIME_TINY         trial=1  pass= 4/4
+  n= 3 prime=PRIME_TINY         trial=2  pass= 4/4
+  n= 3 prime=PRIME_TINY         trial=3  pass= 4/4
+  n= 3 prime=PRIME_TINY         trial=4  pass= 4/4
+  n= 3 prime=PRIME_MERSENNE_61  trial=0  pass= 4/4
+  n= 3 prime=PRIME_MERSENNE_61  trial=1  pass= 4/4
+  n= 3 prime=PRIME_MERSENNE_61  trial=2  pass= 4/4
+  n= 3 prime=PRIME_MERSENNE_61  trial=3  pass= 4/4
+  n= 3 prime=PRIME_MERSENNE_61  trial=4  pass= 4/4
+  n= 3 prime=PRIME_RANDOM_61    trial=0  pass= 4/4
+  n= 3 prime=PRIME_RANDOM_61    trial=1  pass= 4/4
+  n= 3 prime=PRIME_RANDOM_61    trial=2  pass= 4/4
+  n= 3 prime=PRIME_RANDOM_61    trial=3  pass= 4/4
+  n= 3 prime=PRIME_RANDOM_61    trial=4  pass= 4/4
+  n= 4 prime=PRIME_TINY         trial=0  pass= 5/5
+  n= 4 prime=PRIME_TINY         trial=1  pass= 5/5
+  n= 4 prime=PRIME_TINY         trial=2  pass= 5/5
+  n= 4 prime=PRIME_TINY         trial=3  pass= 5/5
+  n= 4 prime=PRIME_TINY         trial=4  pass= 5/5
+  n= 4 prime=PRIME_MERSENNE_61  trial=0  pass= 5/5
+  n= 4 prime=PRIME_MERSENNE_61  trial=1  pass= 5/5
+  n= 4 prime=PRIME_MERSENNE_61  trial=2  pass= 5/5
+  n= 4 prime=PRIME_MERSENNE_61  trial=3  pass= 5/5
+  n= 4 prime=PRIME_MERSENNE_61  trial=4  pass= 5/5
+  n= 4 prime=PRIME_RANDOM_61    trial=0  pass= 5/5
+  n= 4 prime=PRIME_RANDOM_61    trial=1  pass= 5/5
+  n= 4 prime=PRIME_RANDOM_61    trial=2  pass= 5/5
+  n= 4 prime=PRIME_RANDOM_61    trial=3  pass= 5/5
+  n= 4 prime=PRIME_RANDOM_61    trial=4  pass= 5/5
+  n= 5 prime=PRIME_TINY         trial=0  pass= 6/6
+  n= 5 prime=PRIME_TINY         trial=1  pass= 6/6
+  n= 5 prime=PRIME_TINY         trial=2  pass= 6/6
+  n= 5 prime=PRIME_TINY         trial=3  pass= 6/6
+  n= 5 prime=PRIME_TINY         trial=4  pass= 6/6
+  n= 5 prime=PRIME_MERSENNE_61  trial=0  pass= 6/6
+  n= 5 prime=PRIME_MERSENNE_61  trial=1  pass= 6/6
+  n= 5 prime=PRIME_MERSENNE_61  trial=2  pass= 6/6
+  n= 5 prime=PRIME_MERSENNE_61  trial=3  pass= 6/6
+  n= 5 prime=PRIME_MERSENNE_61  trial=4  pass= 6/6
+  n= 5 prime=PRIME_RANDOM_61    trial=0  pass= 6/6
+  n= 5 prime=PRIME_RANDOM_61    trial=1  pass= 6/6
+  n= 5 prime=PRIME_RANDOM_61    trial=2  pass= 6/6
+  n= 5 prime=PRIME_RANDOM_61    trial=3  pass= 6/6
+  n= 5 prime=PRIME_RANDOM_61    trial=4  pass= 6/6
+  n= 6 prime=PRIME_TINY         trial=0  pass= 7/7
+  n= 6 prime=PRIME_TINY         trial=1  pass= 7/7
+  n= 6 prime=PRIME_TINY         trial=2  pass= 7/7
+  n= 6 prime=PRIME_TINY         trial=3  pass= 7/7
+  n= 6 prime=PRIME_TINY         trial=4  pass= 7/7
+  n= 6 prime=PRIME_MERSENNE_61  trial=0  pass= 7/7
+  n= 6 prime=PRIME_MERSENNE_61  trial=1  pass= 7/7
+  n= 6 prime=PRIME_MERSENNE_61  trial=2  pass= 7/7
+  n= 6 prime=PRIME_MERSENNE_61  trial=3  pass= 7/7
+  n= 6 prime=PRIME_MERSENNE_61  trial=4  pass= 7/7
+  n= 6 prime=PRIME_RANDOM_61    trial=0  pass= 7/7
+  n= 6 prime=PRIME_RANDOM_61    trial=1  pass= 7/7
+  n= 6 prime=PRIME_RANDOM_61    trial=2  pass= 7/7
+  n= 6 prime=PRIME_RANDOM_61    trial=3  pass= 7/7
+  n= 6 prime=PRIME_RANDOM_61    trial=4  pass= 7/7
+  n= 8 prime=PRIME_TINY         trial=0  pass= 9/9
+  n= 8 prime=PRIME_TINY         trial=1  pass= 9/9
+  n= 8 prime=PRIME_TINY         trial=2  pass= 9/9
+  n= 8 prime=PRIME_TINY         trial=3  pass= 9/9
+  n= 8 prime=PRIME_TINY         trial=4  pass= 9/9
+  n= 8 prime=PRIME_MERSENNE_61  trial=0  pass= 9/9
+  n= 8 prime=PRIME_MERSENNE_61  trial=1  pass= 9/9
+  n= 8 prime=PRIME_MERSENNE_61  trial=2  pass= 9/9
+  n= 8 prime=PRIME_MERSENNE_61  trial=3  pass= 9/9
+  n= 8 prime=PRIME_MERSENNE_61  trial=4  pass= 9/9
+  n= 8 prime=PRIME_RANDOM_61    trial=0  pass= 9/9
+  n= 8 prime=PRIME_RANDOM_61    trial=1  pass= 9/9
+  n= 8 prime=PRIME_RANDOM_61    trial=2  pass= 9/9
+  n= 8 prime=PRIME_RANDOM_61    trial=3  pass= 9/9
+  n= 8 prime=PRIME_RANDOM_61    trial=4  pass= 9/9
+  n=10 prime=PRIME_TINY         trial=0  pass=11/11
+  n=10 prime=PRIME_TINY         trial=1  pass=11/11
+  n=10 prime=PRIME_TINY         trial=2  pass=11/11
+  n=10 prime=PRIME_TINY         trial=3  pass=11/11
+  n=10 prime=PRIME_TINY         trial=4  pass=11/11
+  n=10 prime=PRIME_MERSENNE_61  trial=0  pass=11/11
+  n=10 prime=PRIME_MERSENNE_61  trial=1  pass=11/11
+  n=10 prime=PRIME_MERSENNE_61  trial=2  pass=11/11
+  n=10 prime=PRIME_MERSENNE_61  trial=3  pass=11/11
+  n=10 prime=PRIME_MERSENNE_61  trial=4  pass=11/11
+  n=10 prime=PRIME_RANDOM_61    trial=0  pass=11/11
+  n=10 prime=PRIME_RANDOM_61    trial=1  pass=11/11
+  n=10 prime=PRIME_RANDOM_61    trial=2  pass=11/11
+  n=10 prime=PRIME_RANDOM_61    trial=3  pass=11/11
+  n=10 prime=PRIME_RANDOM_61    trial=4  pass=11/11
+  n=12 prime=PRIME_TINY         trial=0  pass=13/13
+  n=12 prime=PRIME_TINY         trial=1  pass=13/13
+  n=12 prime=PRIME_TINY         trial=2  pass=13/13
+  n=12 prime=PRIME_TINY         trial=3  pass=13/13
+  n=12 prime=PRIME_TINY         trial=4  pass=13/13
+  n=12 prime=PRIME_MERSENNE_61  trial=0  pass=13/13
+  n=12 prime=PRIME_MERSENNE_61  trial=1  pass=13/13
+  n=12 prime=PRIME_MERSENNE_61  trial=2  pass=13/13
+  n=12 prime=PRIME_MERSENNE_61  trial=3  pass=13/13
+  n=12 prime=PRIME_MERSENNE_61  trial=4  pass=13/13
+  n=12 prime=PRIME_RANDOM_61    trial=0  pass=13/13
+  n=12 prime=PRIME_RANDOM_61    trial=1  pass=13/13
+  n=12 prime=PRIME_RANDOM_61    trial=2  pass=13/13
+  n=12 prime=PRIME_RANDOM_61    trial=3  pass=13/13
+  n=12 prime=PRIME_RANDOM_61    trial=4  pass=13/13
+
+results: E:\pycharm\workspace\20260912Sumcheck\paper2_experiments\legacy\exp1_rank_saturation\results\rank_table_multi_prime.csv
+jsonl  : E:\pycharm\workspace\20260912Sumcheck\paper2_experiments\legacy\exp1_rank_saturation\results\challenges.jsonl
+summary: E:\pycharm\workspace\20260912Sumcheck\paper2_experiments\legacy\exp1_rank_saturation\results\metadata.json
+main:   pass=870 fail=0  aborted=False
+stress: pass=870 fail=0

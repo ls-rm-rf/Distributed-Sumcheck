@@ -1,0 +1,10 @@
+{
+  "rank_table_multi_prime.csv": 1740,
+  "barrier_table.csv": 300,
+  "one_more_exposure.csv": 60,
+  "libra_rank_table.csv": 324,
+  "communication_benchmark.csv": 34300,
+  "communication_totals.csv": 4900,
+  "abort_restart.csv": 343
+}
+PASS: coverage, challenges, ranks, boundary sums, closed forms, plot files, hashes

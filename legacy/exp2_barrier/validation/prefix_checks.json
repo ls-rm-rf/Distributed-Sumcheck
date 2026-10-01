@@ -1,0 +1,67 @@
+{
+  "status": "PASS",
+  "tests_run": 7,
+  "checks": {
+    "fiber_history": {
+      "current_fiber": 5,
+      "terminal_fiber_without_refresh": 1,
+      "historical_values_after_refresh": 5,
+      "terminal_uniqueness_requires_fixed_witness": true
+    },
+    "frozen_suffix": {
+      "quadratics": 343,
+      "suffix_condition_not_necessary": true,
+      "same_views_different_initial_target": true,
+      "recovered_target": "lambda*p^(k-1)(0)"
+    },
+    "initial_coin_challenge": {
+      "inputs_per_witness": 15625,
+      "inputs_all_witnesses": 78125,
+      "public_laws_identical": true,
+      "witness_recovery": true
+    },
+    "invalid_kernel_mutation": "rejected",
+    "joint_prefix": {
+      "field": 3,
+      "per_witness": [
+        {
+          "witness": 0,
+          "inputs": 177147,
+          "stopped_inputs": 59049,
+          "completed_inputs": 118098,
+          "stopped_records": 9,
+          "completed_records": 54
+        },
+        {
+          "witness": 1,
+          "inputs": 177147,
+          "stopped_inputs": 59049,
+          "completed_inputs": 118098,
+          "stopped_records": 9,
+          "completed_records": 54
+        },
+        {
+          "witness": 2,
+          "inputs": 177147,
+          "stopped_inputs": 59049,
+          "completed_inputs": 118098,
+          "stopped_records": 9,
+          "completed_records": 54
+        }
+      ],
+      "conditional_views_uniform": true,
+      "witness_laws_identical": true
+    },
+    "pairwise_independence": {
+      "inputs_per_witness": 625,
+      "separate_independence": true,
+      "joint_independence": false,
+      "witness_recovery": true
+    },
+    "stopping_leak": {
+      "inputs_per_witness": 625,
+      "stopped_per_witness": 125,
+      "stopped_witness_recovery": true
+    }
+  }
+}

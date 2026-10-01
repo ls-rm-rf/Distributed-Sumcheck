@@ -1,0 +1,39 @@
+{
+  "config": {
+    "modes": [
+      "main",
+      "stress"
+    ],
+    "ns": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      10,
+      12
+    ],
+    "trials": 5,
+    "seed": 20250502,
+    "main_policy": "include_01",
+    "primes": [
+      "PRIME_TINY",
+      "PRIME_MERSENNE_61",
+      "PRIME_RANDOM_61"
+    ],
+    "started_utc": "2026-09-30T22:27:31.490529+00:00"
+  },
+  "totals": {},
+  "main_mode": {
+    "pass_total": 870,
+    "fail_total": 0,
+    "aborted": false
+  },
+  "stress_mode": {
+    "pass_total": 870,
+    "fail_total": 0,
+    "aborted": false
+  },
+  "finished_utc": "2026-09-30T22:27:31.799288+00:00"
+}

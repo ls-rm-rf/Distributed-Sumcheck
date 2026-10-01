@@ -1,0 +1,54 @@
+{"trial_id": "libra-3-PRIME_TINY-exclude_01-0", "challenges": [2, 2, 2], "prime_value": "3", "degree": 2}
+{"trial_id": "libra-3-PRIME_TINY-exclude_01-1", "challenges": [2, 2, 2], "prime_value": "3", "degree": 2}
+{"trial_id": "libra-3-PRIME_TINY-exclude_01-2", "challenges": [2, 2, 2], "prime_value": "3", "degree": 2}
+{"trial_id": "libra-3-PRIME_TINY-forced_01-0", "challenges": [0, 0, 1], "prime_value": "3", "degree": 2}
+{"trial_id": "libra-3-PRIME_TINY-forced_01-1", "challenges": [1, 0, 0], "prime_value": "3", "degree": 2}
+{"trial_id": "libra-3-PRIME_TINY-forced_01-2", "challenges": [1, 1, 1], "prime_value": "3", "degree": 2}
+{"trial_id": "libra-3-PRIME_MERSENNE_61-exclude_01-0", "challenges": [1748935622152331157, 850367061880676667, 1136773041057873745], "prime_value": "2305843009213693951", "degree": 2}
+{"trial_id": "libra-3-PRIME_MERSENNE_61-exclude_01-1", "challenges": [756537034322459798, 460532555195638126, 2062976441970688389], "prime_value": "2305843009213693951", "degree": 2}
+{"trial_id": "libra-3-PRIME_MERSENNE_61-exclude_01-2", "challenges": [1526802570189960178, 1520497212198930845, 135615125056360439], "prime_value": "2305843009213693951", "degree": 2}
+{"trial_id": "libra-3-PRIME_MERSENNE_61-forced_01-0", "challenges": [0, 1, 0], "prime_value": "2305843009213693951", "degree": 2}
+{"trial_id": "libra-3-PRIME_MERSENNE_61-forced_01-1", "challenges": [0, 1, 1], "prime_value": "2305843009213693951", "degree": 2}
+{"trial_id": "libra-3-PRIME_MERSENNE_61-forced_01-2", "challenges": [1, 1, 0], "prime_value": "2305843009213693951", "degree": 2}
+{"trial_id": "libra-3-PRIME_RANDOM_61-exclude_01-0", "challenges": [1260640417094270374, 887330724883656181, 2006773607119040430], "prime_value": "2305843009213693967", "degree": 2}
+{"trial_id": "libra-3-PRIME_RANDOM_61-exclude_01-1", "challenges": [739196741177624725, 1468504155425509758, 743648301795453764], "prime_value": "2305843009213693967", "degree": 2}
+{"trial_id": "libra-3-PRIME_RANDOM_61-exclude_01-2", "challenges": [622826504559556354, 1066798554719232060, 2119709838496420334], "prime_value": "2305843009213693967", "degree": 2}
+{"trial_id": "libra-3-PRIME_RANDOM_61-forced_01-0", "challenges": [0, 0, 1], "prime_value": "2305843009213693967", "degree": 2}
+{"trial_id": "libra-3-PRIME_RANDOM_61-forced_01-1", "challenges": [1, 0, 0], "prime_value": "2305843009213693967", "degree": 2}
+{"trial_id": "libra-3-PRIME_RANDOM_61-forced_01-2", "challenges": [0, 1, 0], "prime_value": "2305843009213693967", "degree": 2}
+{"trial_id": "libra-5-PRIME_TINY-exclude_01-0", "challenges": [2, 2, 2, 2, 2], "prime_value": "3", "degree": 2}
+{"trial_id": "libra-5-PRIME_TINY-exclude_01-1", "challenges": [2, 2, 2, 2, 2], "prime_value": "3", "degree": 2}
+{"trial_id": "libra-5-PRIME_TINY-exclude_01-2", "challenges": [2, 2, 2, 2, 2], "prime_value": "3", "degree": 2}
+{"trial_id": "libra-5-PRIME_TINY-forced_01-0", "challenges": [0, 0, 0, 1, 0], "prime_value": "3", "degree": 2}
+{"trial_id": "libra-5-PRIME_TINY-forced_01-1", "challenges": [0, 1, 0, 0, 0], "prime_value": "3", "degree": 2}
+{"trial_id": "libra-5-PRIME_TINY-forced_01-2", "challenges": [1, 0, 0, 0, 1], "prime_value": "3", "degree": 2}
+{"trial_id": "libra-5-PRIME_MERSENNE_61-exclude_01-0", "challenges": [115751116816410100, 2019960594563739664, 972901054779872882, 898916040856517941, 732025690936355274], "prime_value": "2305843009213693951", "degree": 2}
+{"trial_id": "libra-5-PRIME_MERSENNE_61-exclude_01-1", "challenges": [1689134181700436792, 2031744438529342287, 1613072197613914739, 696975239748631398, 1195460345290113198], "prime_value": "2305843009213693951", "degree": 2}
+{"trial_id": "libra-5-PRIME_MERSENNE_61-exclude_01-2", "challenges": [1289310008305681582, 1824460801496210228, 34880458147795622, 453620578322409600, 838175271065204726], "prime_value": "2305843009213693951", "degree": 2}
+{"trial_id": "libra-5-PRIME_MERSENNE_61-forced_01-0", "challenges": [1, 1, 1, 1, 0], "prime_value": "2305843009213693951", "degree": 2}
+{"trial_id": "libra-5-PRIME_MERSENNE_61-forced_01-1", "challenges": [1, 0, 0, 0, 1], "prime_value": "2305843009213693951", "degree": 2}
+{"trial_id": "libra-5-PRIME_MERSENNE_61-forced_01-2", "challenges": [1, 1, 0, 1, 0], "prime_value": "2305843009213693951", "degree": 2}
+{"trial_id": "libra-5-PRIME_RANDOM_61-exclude_01-0", "challenges": [2285302789987036551, 782266777976727237, 334650252266386298, 1109593521614791700, 192585391227952696], "prime_value": "2305843009213693967", "degree": 2}
+{"trial_id": "libra-5-PRIME_RANDOM_61-exclude_01-1", "challenges": [2291847773935992723, 2163638874815671410, 940193893164306975, 2276746773416710502, 453929095331535772], "prime_value": "2305843009213693967", "degree": 2}
+{"trial_id": "libra-5-PRIME_RANDOM_61-exclude_01-2", "challenges": [960920286202132201, 1027880168458846647, 165237912717454923, 507353319877724991, 2255543832992072072], "prime_value": "2305843009213693967", "degree": 2}
+{"trial_id": "libra-5-PRIME_RANDOM_61-forced_01-0", "challenges": [0, 1, 1, 0, 0], "prime_value": "2305843009213693967", "degree": 2}
+{"trial_id": "libra-5-PRIME_RANDOM_61-forced_01-1", "challenges": [0, 1, 0, 1, 0], "prime_value": "2305843009213693967", "degree": 2}
+{"trial_id": "libra-5-PRIME_RANDOM_61-forced_01-2", "challenges": [1, 1, 0, 1, 1], "prime_value": "2305843009213693967", "degree": 2}
+{"trial_id": "libra-7-PRIME_TINY-exclude_01-0", "challenges": [2, 2, 2, 2, 2, 2, 2], "prime_value": "3", "degree": 2}
+{"trial_id": "libra-7-PRIME_TINY-exclude_01-1", "challenges": [2, 2, 2, 2, 2, 2, 2], "prime_value": "3", "degree": 2}
+{"trial_id": "libra-7-PRIME_TINY-exclude_01-2", "challenges": [2, 2, 2, 2, 2, 2, 2], "prime_value": "3", "degree": 2}
+{"trial_id": "libra-7-PRIME_TINY-forced_01-0", "challenges": [1, 0, 0, 1, 1, 1, 0], "prime_value": "3", "degree": 2}
+{"trial_id": "libra-7-PRIME_TINY-forced_01-1", "challenges": [1, 1, 0, 0, 0, 0, 1], "prime_value": "3", "degree": 2}
+{"trial_id": "libra-7-PRIME_TINY-forced_01-2", "challenges": [1, 0, 0, 1, 1, 0, 1], "prime_value": "3", "degree": 2}
+{"trial_id": "libra-7-PRIME_MERSENNE_61-exclude_01-0", "challenges": [1315309908560684410, 2140262294605898782, 1766748013449985868, 2257560166078655855, 1305264954983329053, 1905999803501539120, 1082132555212289000], "prime_value": "2305843009213693951", "degree": 2}
+{"trial_id": "libra-7-PRIME_MERSENNE_61-exclude_01-1", "challenges": [1728215949276988284, 314491410572106666, 254236513613848283, 1285705145017848907, 2214762273911054353, 2093493698822768369, 143242322410223595], "prime_value": "2305843009213693951", "degree": 2}
+{"trial_id": "libra-7-PRIME_MERSENNE_61-exclude_01-2", "challenges": [348641606983837315, 156729126946069470, 1919742431018496409, 361478410573013551, 2104778044916792345, 2098847431110424536, 2248850615860134971], "prime_value": "2305843009213693951", "degree": 2}
+{"trial_id": "libra-7-PRIME_MERSENNE_61-forced_01-0", "challenges": [1, 1, 0, 1, 1, 0, 1], "prime_value": "2305843009213693951", "degree": 2}
+{"trial_id": "libra-7-PRIME_MERSENNE_61-forced_01-1", "challenges": [0, 1, 1, 0, 0, 1, 0], "prime_value": "2305843009213693951", "degree": 2}
+{"trial_id": "libra-7-PRIME_MERSENNE_61-forced_01-2", "challenges": [0, 1, 1, 0, 1, 0, 1], "prime_value": "2305843009213693951", "degree": 2}
+{"trial_id": "libra-7-PRIME_RANDOM_61-exclude_01-0", "challenges": [753475746978943413, 1570843459518720273, 2258038550500571467, 303328112694753376, 177854980370422444, 605643677865625291, 904152874364522745], "prime_value": "2305843009213693967", "degree": 2}
+{"trial_id": "libra-7-PRIME_RANDOM_61-exclude_01-1", "challenges": [968828762107709538, 1727886142357715526, 176486462087428922, 1888730743857582129, 132438509116220150, 1113528596891771172, 1909958821541586863], "prime_value": "2305843009213693967", "degree": 2}
+{"trial_id": "libra-7-PRIME_RANDOM_61-exclude_01-2", "challenges": [849516678066580936, 514906326404822161, 1757022263881902191, 2079143240623344076, 2082241457585861742, 259778429127133470, 387436048794301086], "prime_value": "2305843009213693967", "degree": 2}
+{"trial_id": "libra-7-PRIME_RANDOM_61-forced_01-0", "challenges": [1, 0, 0, 0, 0, 0, 1], "prime_value": "2305843009213693967", "degree": 2}
+{"trial_id": "libra-7-PRIME_RANDOM_61-forced_01-1", "challenges": [0, 0, 0, 1, 1, 1, 0], "prime_value": "2305843009213693967", "degree": 2}
+{"trial_id": "libra-7-PRIME_RANDOM_61-forced_01-2", "challenges": [0, 1, 1, 0, 0, 0, 1], "prime_value": "2305843009213693967", "degree": 2}
