@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "stages": [
+    {
+      "name": "legacy_full",
+      "exit_code": 0,
+      "log": "results/legacy_full.log"
+    },
+    {
+      "name": "complete_resharing",
+      "exit_code": 0,
+      "log": "results/complete_resharing.log"
+    },
+    {
+      "name": "prefix_snapshots",
+      "exit_code": 0,
+      "log": "results/prefix_snapshots.log"
+    },
+    {
+      "name": "complete_refresh_costs",
+      "exit_code": 0,
+      "log": "results/complete_refresh_costs.log"
+    },
+    {
+      "name": "figure_epochs",
+      "exit_code": 0,
+      "log": "results/figure_epochs.log"
+    }
+  ],
+  "legacy_csv_rows": {
+    "rank_table_multi_prime.csv": 1740,
+    "barrier_table.csv": 300,
+    "one_more_exposure.csv": 60,
+    "libra_rank_table.csv": 324,
+    "communication_benchmark.csv": 34300,
+    "communication_totals.csv": 4900,
+    "abort_restart.csv": 343
+  }
+}

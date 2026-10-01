@@ -1,4 +1,4 @@
-"""Reproduce the legacy sweeps and the current manuscript supplement."""
+"""Reproduce finite-field checks, snapshot experiments, resource counts, and figures."""
 import json
 import os
 import subprocess
@@ -39,9 +39,10 @@ def main():
     run('legacy_full', ROOT/'legacy/run_all.py', ROOT/'legacy')
     regenerated = json.loads((ROOT/'legacy/validation/run_manifest.json').read_text(encoding='utf-8'))
     summary['legacy_csv_rows'] = regenerated['csv_rows']
-    run('complete_resharing', ROOT/'supplement/verify_paper.py', ROOT)
-    run('prefix_snapshots', ROOT/'supplement/check_prefix_snapshots.py', ROOT)
-    run('figure_epochs', ROOT/'supplement/make_fig_epochs.py', ROOT)
+    run('complete_resharing', ROOT/'legacy/exp2_barrier/verify_complete_refresh.py', ROOT)
+    run('prefix_snapshots', ROOT/'legacy/exp2_barrier/check_prefix_snapshots.py', ROOT)
+    run('complete_refresh_costs', ROOT/'legacy/exp3_communication/check_complete_refresh_costs.py', ROOT)
+    run('figure_epochs', ROOT/'legacy/exp2_barrier/make_fig_epochs.py', ROOT)
     summary['status'] = 'PASS'
     summary_path.write_text(json.dumps(summary, indent=2)+'\n', encoding='utf-8')
     print('All experiments passed. See results/summary.json.')
